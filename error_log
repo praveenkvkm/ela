@@ -1,0 +1,14 @@
+[13-Oct-2020 05:16:48 UTC] PHP Fatal error:  Cannot declare class App\Http\Middleware\RedirectIfNotAdmin, because the name is already in use in /home/techinso/public_html/ela2/app/Http/Middleware/RedirectIfNotElaUser.php on line 8
+[03-Nov-2020 11:53:36 UTC] PHP Fatal error:  Cannot use temporary expression in write context in /home/techinso/public_html/ela-dev/app/Http/Controllers/AdminController.php on line 173
+[08-Nov-2020 02:31:36 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\CommonController::get_mentor_types() in /home/techinso/public_html/ela-dev/app/Http/Controllers/CommonController.php on line 255
+[08-Nov-2020 02:33:23 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\CommonController::get_mentor_types() in /home/techinso/public_html/ela-dev/app/Http/Controllers/CommonController.php on line 255
+[10-Nov-2020 05:31:50 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\CommonController::get_count_stud_grades() in /home/techinso/public_html/ela/app/Http/Controllers/CommonController.php on line 73
+[01-Dec-2020 12:00:19 UTC] PHP Fatal error:  Cannot redeclare UR_exists() (previously declared in /home/techinso/public_html/ela-dev/storage/framework/views/9943e26e085d8920f9581a5cdbd02c5826e0f398.php:633) in /home/techinso/public_html/ela-dev/storage/framework/views/9943e26e085d8920f9581a5cdbd02c5826e0f398.php on line 633
+[17-Feb-2021 06:27:57 UTC] PHP Warning:  Uncaught ErrorException: require(/home/effectiv/public_html/ela/routes/web.php): failed to open stream: No such file or directory in /home/effectiv/public_html/ela/vendor/laravel/framework/src/Illuminate/Routing/Router.php:393
+Stack trace:
+#0 /home/effectiv/public_html/ela/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/e...', '/home/effectiv/...', 393, Array)
+#1 /home/effectiv/public_html/ela/vendor/laravel/framework/src/Illuminate/Routing/Router.php(393): require()
+#2 /home/effectiv/public_html/ela/vendor/laravel/framework/src/Illuminate/Routing/Router.php(349): Illuminate\Routing\Router->loadRoutes('/home/effectiv/...')
+#3 /home/effectiv/public_html/ela/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(105): Illuminate\Routing\Router->group(Array, '/home/effectiv/...')
+#4 /home/effectiv/public_html/ela/app/Providers/RouteServiceProvider.php(56): Illuminate\Routing\RouteRegistrar->group('/home/e in /home/effectiv/public_html/ela/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
+[17-Feb-2021 06:27:57 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/effectiv/public_html/ela/routes/web.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/effectiv/public_html/ela/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 393
