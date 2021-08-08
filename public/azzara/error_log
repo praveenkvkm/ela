@@ -1,0 +1,6 @@
+[14-Aug-2020 09:32:32 UTC] PHP Fatal error:  Cannot use Illuminate\Http\Request as Request because the name is already in use in /home/g6bwxd50ztzx/public_html/app/Http/Controllers/UserController.php on line 10
+[14-Aug-2020 09:34:38 UTC] PHP Fatal error:  Cannot use Illuminate\Http\Request as Request because the name is already in use in /home/g6bwxd50ztzx/public_html/app/Http/Controllers/UserController.php on line 10
+[14-Aug-2020 09:36:25 UTC] PHP Fatal error:  Cannot use Illuminate\Http\Request as Request because the name is already in use in /home/g6bwxd50ztzx/public_html/app/Http/Controllers/UserController.php on line 10
+[14-Aug-2020 09:37:13 UTC] PHP Fatal error:  Cannot use Illuminate\Http\Request as Request because the name is already in use in /home/g6bwxd50ztzx/public_html/app/Http/Controllers/UserController.php on line 10
+[14-Aug-2020 09:37:54 UTC] PHP Fatal error:  Cannot use Illuminate\Http\Request as Request because the name is already in use in /home/g6bwxd50ztzx/public_html/app/Http/Controllers/UserController.php on line 10
+[14-Aug-2020 09:41:11 UTC] PHP Fatal error:  Cannot use Illuminate\Http\Request as Request because the name is already in use in /home/g6bwxd50ztzx/public_html/app/Http/Controllers/UserController.php on line 10
